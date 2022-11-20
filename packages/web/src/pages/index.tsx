@@ -19,6 +19,12 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="flex items-center bg-gray-900 border-b border-gray-800">
+                <p
+                    style={{ fontFamily: "Menlo" }}
+                    className="ml-3 text-purple-500 text-xl"
+                >
+                    me.com
+                </p>
                 <div className="ml-auto mr-5">
                     <button
                         onClick={() => router.push("/services")}
@@ -43,6 +49,23 @@ export default function Home() {
                     </button>
                 </div>
             </div>
+            <p
+                style={{ fontFamily: "Menlo" }}
+                className="text-purple-500 text-center mt-20 text-5xl"
+            >
+                me.com
+            </p>
+            <p className="text-center mt-5 text-gray-500">
+                a genuine product by a genuine team <br />
+                <div className="mt-4" />
+                Madhur Sapra
+                <br />
+                Shravyaa Gupta
+                <br />
+                Divyanshu Maheshwari <br />
+                Japroz
+                <br />
+            </p>
         </div>
     );
 }

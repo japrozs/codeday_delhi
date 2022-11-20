@@ -51,6 +51,12 @@ const App: React.FC<AppProps> = ({}) => {
     return (
         <div>
             <div className="flex items-center bg-gray-900 border-b border-gray-800">
+                <p
+                    style={{ fontFamily: "Menlo" }}
+                    className="ml-3 text-purple-500 text-xl"
+                >
+                    me.com
+                </p>
                 <div className="ml-auto mr-5">
                     <button
                         onClick={() => router.push("/services")}
