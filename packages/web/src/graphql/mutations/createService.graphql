@@ -1,0 +1,5 @@
+mutation createService($name: String!, $description: String!) {
+    createService(name: $name, description: $description) {
+        ...RegularService
+    }
+}

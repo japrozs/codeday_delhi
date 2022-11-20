@@ -1,0 +1,8 @@
+query getAllServices {
+    getAllServices {
+        ...RegularService
+        creator {
+            ...RegularUser
+        }
+    }
+}

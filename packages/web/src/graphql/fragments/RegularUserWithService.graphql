@@ -1,0 +1,13 @@
+fragment RegularUserWithService on User {
+    id
+    name
+    imgUrl
+    email
+    phone
+    services {
+        ...RegularService
+    }
+    createdAt
+    updatedAt
+    __typename
+}

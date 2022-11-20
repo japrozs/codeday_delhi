@@ -1,0 +1,3 @@
+mutation updateServiceName($id: Int!, $name: String!) {
+    updateServiceName(id: $id, name: $name)
+}

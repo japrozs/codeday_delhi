@@ -1,0 +1,10 @@
+fragment RegularUser on User {
+    id
+    name
+    imgUrl
+    email
+    phone
+    createdAt
+    updatedAt
+    __typename
+}

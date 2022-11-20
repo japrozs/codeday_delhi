@@ -1,0 +1,9 @@
+fragment RegularService on Service {
+    id
+    name
+    description
+    creatorId
+    createdAt
+    updatedAt
+    __typename
+}
