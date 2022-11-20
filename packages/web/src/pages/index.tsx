@@ -56,7 +56,7 @@ export default function Home() {
                 me.com
             </p>
             <p className="text-center mt-5 text-gray-500">
-                a genuine product by a genuine team <br />
+                a genuine product by team genuine <br />
                 <div className="mt-4" />
                 Madhur Sapra
                 <br />
